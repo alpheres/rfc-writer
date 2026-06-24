@@ -1,10 +1,10 @@
 {
-  "name": "rfc-writer-marketplace",
+  "name": "rfc-writer",
   "owner": {
-    "name": "SEU-NOME-OU-ORG"
+    "name": "alpheres"
   },
   "metadata": {
-    "description": "Marketplace pessoal com o plugin rfc-writer: padroniza a escrita de RFCs no Claude Code."
+    "description": "Plugin rfc-writer: padroniza a escrita de RFCs no Claude Code."
   },
   "plugins": [
     {
