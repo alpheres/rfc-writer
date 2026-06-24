@@ -36,7 +36,7 @@ Dentro de uma sessão do Claude Code:
 
 ```
 /plugin marketplace add SEU-USUARIO/rfc-writer
-/plugin install rfc-writer@rfc-writer-marketplace
+/plugin install alpheres@rfc-writer
 ```
 
 No VS Code, `/plugins` abre a mesma interface e lê o mesmo marketplace — não
@@ -62,5 +62,5 @@ Sem precisar do GitHub ainda:
 
 ```
 /plugin marketplace add ./caminho/para/rfc-writer
-/plugin install rfc-writer@rfc-writer-marketplace
+/plugin install alpheres@rfc-writer
 ```
