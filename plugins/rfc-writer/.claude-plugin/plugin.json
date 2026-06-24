@@ -1,0 +1,5 @@
+{
+  "name": "rfc-writer",
+  "description": "Padroniza a escrita, estruturação e revisão de RFCs/design docs seguindo um template fixo.",
+  "version": "1.0.0"
+}
