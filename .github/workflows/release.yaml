@@ -1,0 +1,23 @@
+name: Monetics CI
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+  actions: read
+
+jobs:
+  release-please:
+    name: Release Please
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Release Please
+        uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.PAT }}
+          release-type: go
