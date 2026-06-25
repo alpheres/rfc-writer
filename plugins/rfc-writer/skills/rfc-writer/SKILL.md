@@ -87,5 +87,3 @@ explicitamente.
 ## Referências
 
 - Template completo: `templates/rfc-template.md`
-- Exemplo real e completo (tom, nível de detalhe, uso de diagramas e
-  tabelas): `examples/RFC-002-Estrategia-RDS-Governanca.md`
