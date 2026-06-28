@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/hooks/secure-code-rules.md\"; exit 0",
+            "timeout": 5,
+            "statusMessage": "Loading secure-code mode..."
+          }
+        ]
+      }
+    ]
+  }
+}

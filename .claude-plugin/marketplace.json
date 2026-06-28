@@ -1,16 +1,21 @@
 {
-  "name": "rfc-writer",
+  "name": "alpheres-toolkit",
   "owner": {
     "name": "alpheres"
   },
   "metadata": {
-    "description": "Plugin rfc-writer: padroniza a escrita de RFCs no Claude Code."
+    "description": "Plugins do alpheres: RFC writer + Secure Code enforcement."
   },
   "plugins": [
     {
       "name": "rfc-writer",
       "source": "./plugins/rfc-writer",
       "description": "Skill + comandos para escrever e revisar RFCs seguindo um template fixo."
+    },
+    {
+      "name": "secure-code",
+      "source": "./plugins/secure-code",
+      "description": "Aplica segurança (OWASP, auth, injection prevention) em todo código gerado. Ativo via hook de sessão."
     }
   ]
 }

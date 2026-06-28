@@ -1,0 +1,10 @@
+{
+  "name": "secure-code",
+  "version": "1.0.0",
+  "description": "Aplica segurança arquitetural e princípios OWASP em todo código gerado por AI. Ativo em toda sessão via hook.",
+  "author": {
+    "name": "alpheres",
+    "url": "https://github.com/alpheres"
+  },
+  "hooks": "./hooks/hooks.json"
+}
